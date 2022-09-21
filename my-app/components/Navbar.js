@@ -8,7 +8,7 @@ const Navbar = () => {
         <Link href="/">
           <h1 className="font-bold text-4xl">Captur</h1>
         </Link>
-        <ul className="flex">
+        <ul className="hidden sm:flex sm:gap-4">
           <li>
             <Link href="/home">Home</Link>
           </li>
@@ -22,10 +22,10 @@ const Navbar = () => {
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
-        <div>
+        <div className="sm:hidden z-10">
           <AiOutlineMenu size={20} />
         </div>
-        <div>
+        <div className="sm:hidden absolute inset-0 flex justify-center items-center w-full h-screen bg-black text-center">
           <ul>
             <li>
               <Link href="/home">Home</Link>
