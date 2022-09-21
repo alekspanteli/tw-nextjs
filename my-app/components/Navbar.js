@@ -4,11 +4,11 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const Navbar = () => {
   return (
     <div className="fixed left-0 top-0 z-[1] w-full duration-300">
-      <div className="max-w-[1240px] m-auto flex justify-between items-center p-4">
+      <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
-          <h1>Captur</h1>
+          <h1 className="font-bold text-4xl">Captur</h1>
         </Link>
-        <ul>
+        <ul className="flex">
           <li>
             <Link href="/home">Home</Link>
           </li>
