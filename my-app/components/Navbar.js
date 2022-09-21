@@ -34,7 +34,7 @@ const Navbar = () => {
           className={
             nav
               ? "sm:hidden absolute inset-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
-              : "sm:hidden absolute inset-0 left-[-100%] flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
+              : "sm:hidden absolute inset-0 translate-x-[-100%] flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
           }
         >
           <ul className="flex flex-col gap-y-3">
